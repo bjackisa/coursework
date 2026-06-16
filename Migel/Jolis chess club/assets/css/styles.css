@@ -1,0 +1,157 @@
+body {
+  background-color: #E8380D;
+}
+
+label{
+ color: red;
+
+}
+
+
+h1{ color: #FFFFFF; }
+
+.hero{ border-radius: 10%;
+  width: 20%; 
+  height:30%; 
+   }
+
+
+fieldset { width: 100%;  }
+
+
+.cta-button {
+  background-color: #007bff; 
+  color: red;             
+  padding: 12px 24px;      
+  text-decoration: none;    
+  border-radius: 5px;       
+  display: inline-block;   
+  font-weight: bold;
+  border: none;
+  cursor: pointer;          
+  transition: background-color 0.3s ease; 
+  }
+  
+  
+  
+  header{ 
+   border: 2px solid #555;
+    border-radius: 10px; 
+  background-color: #0D2B5E;
+  height: 30%;
+   }
+   
+   .logo{ display: block; margin: 10 auto -10px; height: 80%;
+ width: 30%;
+ border-radius: 50%; 
+  
+ }
+ 
+ 
+ 
+   
+   
+    footer{ 
+	border: 2px solid black;
+    border-radius: 10px; 
+  background-color: #0D2B5E;
+  height: 20%;
+   } 
+   
+   
+  
+ 
+ .flogo { display: block; margin: 10 auto -10px; height: 20%;
+ width: 30%;
+   
+   
+  
+   }
+   
+    .his{ display: block; margin: 0 auto -10px; height: 50%;
+ width: 20%;
+ border-radius: 10px; 
+ margin: 10px
+	 }
+   
+   
+
+   .container {  display: flex;         
+  align-items: right;   
+  gap: 10px;             
+}
+
+
+
+ 
+
+ .hero{ border-radius: 10%;
+  width: 20%; 
+  height:30%; 
+   }
+
+      /*for photos*/
+/* Container for the whole layout */
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; 
+  
+}
+
+/* 3-column grid for the media */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 150px); 
+  grid-template-rows: repeat(2, 150px);
+  gap: 10px;
+   
+}
+
+/* Universal media styling */
+.media-grid img, 
+.media-grid video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+   border-radius: 10px;
+}
+
+/* Make the video taller to fill the rightmost column */
+.video-item {
+  grid-row: span 2;
+  
+}
+
+/* Styling for the right-side text */
+.text-content {
+  flex: 1; 
+  max-width: 400px;
+}
+
+
+
+/*for nav bar*/
+.navbar ul {
+  list-style-type: none; /* Removes bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;        /* Aligns items horizontally */
+  background-color: #F0F4FA;
+  border-radius: 10px;
+}
+
+.navbar li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes underlines */
+}
+
+/* Change color on hover */
+.navbar li a:hover {
+  background-color: #0D2B5E;
+   border-radius: 10px;
+  
+}

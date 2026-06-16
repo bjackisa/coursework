@@ -1,0 +1,40 @@
+h1 {
+	color: #E8380D
+	
+	
+}
+
+h2 {
+	
+	color: #0D2B5E
+	
+	
+	
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 5%; 
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px; 
+}
+.bro{ 
+    background-color: #F0F4FA
+}
+
+footer{
+	background-color: #E8380D;
+	border: 2px solid black;
+}
+
+
+.red{
+	background-color: #F0F4FA;
+	
+}
